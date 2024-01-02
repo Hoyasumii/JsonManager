@@ -1,10 +1,29 @@
-# JSON Checker
-- Pequena biblioteca para validação de JSONs.
-- O método principal e único vai compar o JSON com um schema e retornar um booleano indicando se o JSON é válido ou não.
+# JSON Manager
+- Pequena biblioteca para validação e manipulação de JSONs.
 ---
-## Como usar
-1. Para usar a biblioteca, basta importar o único método que ela possui, que é o `jsonChecker`. Seus únicos parâmetros são:
+## Instalação
+- Enquanto o PyPi está fora do ar, você pode instalar a biblioteca através do `git submodule add git@github.com:Hoyasumii/JsonManager.git`
+- Caso queira colocar o submódulo em uma pasta específica, basta adicionar o nome da pasta após o link do repositório.
+---
+## Métodos disponíveis
+### `checker` -> `dict`
+- Retorna um dicionário com as chaves que estão: `Faltando`, `Com valor errado` e `Chaves extras`.
+- Parâmetros:
     - `json`: O JSON a ser validado.
     - `schema`: O schema a ser usado na validação.
-    - `exact`: `opcional`: Se `True`, o JSON deve conter apenas as chaves do schema. Se `False`, o JSON pode conter chaves que não estão no schema.
+### `dropKey` -> `bool`
+- Retorna `True` se a chave foi removida com sucesso, `False` caso contrário.
+- Parâmetros:
+    - `json`: O JSON a ser manipulado.
+    - `key`: A chave a ser removida.
+### `get` -> `dict`
+- Retorna o `dicionário` do **JSON**.
+- Parâmetros:
+    - `json`: O JSON a ser manipulado.
+### `update` -> `bool`
+- Retorna `True` se o **JSON** foi atualizado com sucesso, `False` caso contrário.
+- Parâmetros:
+    - `json`: O JSON a ser manipulado.
+    - `key`: A chave a ser atualizada.
+    - `value`: O valor a ser atualizado.
 ---
