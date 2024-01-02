@@ -1,1 +1,1 @@
-from .jsonManager import JsonManager
+from .HoylJsonManager import JsonManager
