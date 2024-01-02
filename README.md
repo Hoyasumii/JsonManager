@@ -1,8 +1,19 @@
-# JSON Manager
+# [JSON Manager](https://pypi.org/project/hoyl-json-manager/)
 - Pequena biblioteca para validação e manipulação de JSONs.
 ---
 ## Instalação
-- Enquanto o PyPi está fora do ar, você pode instalar a biblioteca através do `git submodule add git@github.com:Hoyasumii/JsonManager.git`
+- Você pode baixar pelo pip:
+```
+pip install hoyl-json-manager
+```
+- Ou pelo próprio repositório:
+```
+git clone git@github.com:Hoyasumii/JsonManager.git
+```
+- ou pelos submódulos do git:
+```
+git submodule add git@github.com:Hoyasumii/JsonManager.git
+```
 - Caso queira colocar o submódulo em uma pasta específica, basta adicionar o nome da pasta após o link do repositório.
 ---
 ## Métodos disponíveis
