@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "jsonchecker"
+name = "jsonmanager"
 version = "1.0"
-description = "Pequena biblioteca para verificar se um arquivo JSON está de acordo com um schema"
+description = "Pequena biblioteca para validação e manipulação de JSONs."
 authors = ["Alan Reis <alanreisanjo@gmail.com>"]
 license = "MIT"
 readme = "README.md"
