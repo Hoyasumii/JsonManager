@@ -4,7 +4,7 @@ with open("./README.md", "r", encoding="utf-8") as arq:
     readme = arq.read()
 
 setup(name='hoyl-json-manager',
-    version='1.0',
+    version='1.1',
     license='MIT License',
     author='Alan Reis Anjos',
     long_description=readme,

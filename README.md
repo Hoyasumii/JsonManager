@@ -38,3 +38,4 @@ git submodule add git@github.com:Hoyasumii/JsonManager.git
     - `key`: A chave a ser atualizada.
     - `value`: O valor a ser atualizado.
 ---
+- [**Link do repositório**](https://github.com/Hoyasumii/JsonManager)
