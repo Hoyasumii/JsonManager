@@ -1,18 +1,18 @@
-# [JSON Manager](https://pypi.org/project/json-manager/)
+# [JSON Simple Manager](https://pypi.org/project/json-simple-manager/)
 - Pequena biblioteca para validação e manipulação de JSONs.
 ---
 ## Instalação
 - Você pode baixar pelo pip:
 ```
-pip install json-manager
+pip install json-simple-manager
 ```
 - Ou pelo próprio repositório:
 ```
-git clone git@github.com:Hoyasumii/JsonManager.git
+git clone git@github.com:Hoyasumii/JsonSimpleManager.git
 ```
 - ou pelos submódulos do git:
 ```
-git submodule add git@github.com:Hoyasumii/JsonManager.git
+git submodule add git@github.com:Hoyasumii/JsonSimpleManager.git
 ```
 - Caso queira colocar o submódulo em uma pasta específica, basta adicionar o nome da pasta após o link do repositório.
 ---
@@ -38,4 +38,4 @@ git submodule add git@github.com:Hoyasumii/JsonManager.git
     - `key`: A chave a ser atualizada.
     - `value`: O valor a ser atualizado.
 ---
-- [**Link do repositório**](https://github.com/Hoyasumii/JsonManager)
+- [**Link do repositório**](https://github.com/Hoyasumii/JsonSimpleManager)
