@@ -12,4 +12,4 @@ setup(name='json-manager',
     author_email='alanreisanjo@gmail.com',
     keywords='JSON Manager',
     description='Pequena biblioteca para validação e manipulação de JSONs',
-    packages=['HoylJsonManager'])
+    packages=['jsonManager'])
